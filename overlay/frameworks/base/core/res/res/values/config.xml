@@ -158,10 +158,10 @@
     <!-- Allow the menu hard key to be disabled in LockScreen on some devices -->
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
 
-<<<<<<< HEAD
+
     <!-- Boolean to enable stk functionality on Samsung phones -->
     <bool name="config_samsung_stk">true</bool>
-=======
+
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
     <!--  Whether Multiuser UI should be shown -->
@@ -177,5 +177,4 @@
     <bool name="config_doze_enabled_by_default">true</bool>
     <bool name="config_dozeAfterScreenOff">true</bool>    <bool name="doze_pulse_on_significant_motion">true</bool>
     <bool name="doze_display_state_supported">true</bool>
->>>>>>> deae602...  Add Necesarry Bools for Doze
 </resources>
