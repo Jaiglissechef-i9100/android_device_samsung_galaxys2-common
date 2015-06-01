@@ -27,10 +27,9 @@
          for devices where the java drawing of round rects may be slow -->
     <bool name="config_recents_use_hardware_layers">true</bool>
 
-<<<<<<< HEAD
     <!-- Whether to use cheap, less good looking shadows for recents -->
     <bool name="config_recents_fake_shadows">true</bool>
-=======
+
     <!-- Should "4G" be shown instead of "LTE" when the network is
                NETWORK_TYPE_LTE? -->
     <bool name="config_show4GForLTE">false</bool>
@@ -39,6 +38,6 @@
  
     <!-- Doze: should the pickup sensor be used as a pulse signal? -->
     <bool name="doze_pulse_on_pick_up">true</bool> 
->>>>>>> 746fc2f... Add More Bools for doze
+
 </resources>
 
