@@ -196,3 +196,15 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.exynos4
 
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/galaxys2-common/BoardConfigVendor.mk
+
+#RR Optis
+TARGET_TC_ROM := 4.9-linaro
+TARGET_TC_KERNEL := 4.8
+RROPTI := true
+RR_O3 := true
+RR_STRICT := false
+RR_GRAPHITE := true
+RR_KRAIT := false
+RR_PIPE := true
+RR_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+RR_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
