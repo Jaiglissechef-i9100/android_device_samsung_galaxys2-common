@@ -199,7 +199,7 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.exynos4
 
 #RR Optis
 TARGET_TC_ROM := 4.9-linaro
-TARGET_TC_KERNEL := 4.8
+TARGET_TC_KERNEL := 4.9
 RROPTI := true
 RR_O3 := true
 RR_STRICT := false
