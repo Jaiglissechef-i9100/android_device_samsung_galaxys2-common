@@ -17,24 +17,24 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="mdnie_scenario_entries">
-    <item>CyanogenMod (เริ่มต้น)</item>
+    <item>CyanogenMod (ಡೀಫಾಲ್ಟ್)</item>
     <item>UI</item>
-    <item>วิดีโอ</item>
-    <item>วิดีโออบุอุ่น</item>
-    <item>วิดีโอเย็น</item>
-    <item>กล้อง</item>
-    <item>นำทาง</item>
-    <item>แกลลอรี</item>
+    <item>ವೀಡಿಯೋ</item>
+    <item>ವೀಡಿಯೋ ಬೆಚ್ಚನೆ</item>
+    <item>ವೀಡಿಯೋ ತಣ್ಣನೆ</item>
+    <item>ಕ್ಯಾಮೆರಾ</item>
+    <item>ನಾವಿಗೇಶನ್</item>
+    <item>ಗ್ಯಾಲರಿ</item>
     <item>VT</item>
   </string-array>
   <string-array name="mdnie_mode_entries">
-    <item>ไดนามิก (เริ่มต้น)</item>
-    <item>มาตราฐาน</item>
-    <item>ธรรมชาติ</item>
-    <item>ภาพยนตร์</item>
+    <item>ಕ್ರಿಯಾತ್ಮಕ (ಡೀಫಾಲ್ಟ್)</item>
+    <item>ಸ್ಟಾಂಡರ್ಡ್</item>
+    <item>ನೈಸರ್ಗಿಕ</item>
+    <item>ಸಿನಿಮಾ</item>
   </string-array>
   <string-array name="mdnie_negative_entries">
-    <item>ปกติ</item>
-    <item>กลับสี</item>
+    <item>ಸಾಧಾರಣ</item>
+    <item>ಇನ್ವರ್ಟೆಡ್</item>
   </string-array>
 </resources>

@@ -18,10 +18,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="mdnie_scenario_entries">
     <item>CyanogenMod (implicit)</item>
-    <item>UI</item>
-    <item>Video</item>
-    <item>Video cald</item>
-    <item>Video rece</item>
+    <item>Mod UI</item>
+    <item>Mod Video</item>
+    <item>Mod Video Cald</item>
+    <item>Mod Video Rece</item>
     <item>Cameră</item>
     <item>Navigare</item>
     <item>Galerie</item>

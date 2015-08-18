@@ -18,10 +18,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="mdnie_scenario_entries">
     <item>CyanogenMod (типово)</item>
-    <item>Інтерфейс</item>
+    <item>Інтерфейс користувача</item>
     <item>Відео</item>
-    <item>Відео тепло</item>
-    <item>Відео холодно</item>
+    <item>Відео теплий</item>
+    <item>Відео холодний</item>
     <item>Камера</item>
     <item>Навігація</item>
     <item>Галерея</item>
@@ -34,7 +34,7 @@
     <item>Кіно</item>
   </string-array>
   <string-array name="mdnie_negative_entries">
-    <item>Нормальний</item>
+    <item>Звичайний</item>
     <item>Негатив</item>
   </string-array>
 </resources>

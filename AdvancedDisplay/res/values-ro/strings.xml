@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Setări avansate de afișare</string>
-  <string name="defaults_button">Resetare la valorile implicite</string>
+  <string name="defaults_button">Resetare la valori implicite</string>
   <string name="category_screen_title">Ecran</string>
   <string name="screen_colors_title">Culori</string>
   <string name="mdnie_scenario_title_head">Scenariu</string>

@@ -17,13 +17,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Tampilan lanjutan</string>
-  <string name="defaults_button">Set ulang ke Standar</string>
+  <string name="defaults_button">Kembalikan ke setelan baku</string>
   <string name="category_screen_title">Layar</string>
   <string name="screen_colors_title">Warna</string>
   <string name="mdnie_scenario_title_head">Skenario</string>
-  <string name="mdnie_scenario_summary_head">Atur skenario mDNIe</string>
-  <string name="mdnie_mode_title_head">Mode</string>
-  <string name="mdnie_mode_summary_head">Atur mode mDNIe</string>
-  <string name="mdnie_negative_title_head">Mode negatif</string>
-  <string name="mdnie_negative_summary_head">Aktifkan/Nonaktifkan warna terbalik</string>
+  <string name="mdnie_scenario_summary_head">Setel skenario mDNIe</string>
+  <string name="mdnie_mode_title_head">Modus</string>
+  <string name="mdnie_mode_summary_head">Setel modus mDNIe</string>
+  <string name="mdnie_negative_title_head">Modus negatif</string>
+  <string name="mdnie_negative_summary_head">Aktifkan/nonaktifkan warna terbalik</string>
 </resources>
