@@ -18,8 +18,6 @@
 # This variable is set first, so it can be overridden
 # by BoardConfigVendor.mk
 BOARD_USES_GENERIC_AUDIO := false
-BOARD_USE_SAMSUNG_COLORFORMAT := true
-USE_SAMSUNG_COLORFORMAT := true
 BOARD_USES_LEGACY_MMAP := true
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
@@ -60,6 +58,9 @@ BOARD_KERNEL_CMDLINE := console=ttySAC2,115200 consoleblank=0
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
+
+# Memory management
+MALLOC_IMPL := dlmalloc
 
 # Filesystem
 TARGET_USERIMAGES_USE_EXT4 := true
