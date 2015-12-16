@@ -24,9 +24,11 @@ public class Startup extends BroadcastReceiver {
 
     @Override
     public void onReceive(final Context context, final Intent bootintent) {
+        CABC.restore(context);
         mDNIeScenario.restore(context);
         mDNIeMode.restore(context);
         mDNIeNegative.restore(context);
         ScreenFragmentActivity.restore(context);
+        TouchscreenSensitivity.restore(context);
     }
 }

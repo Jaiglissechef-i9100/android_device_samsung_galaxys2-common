@@ -16,14 +16,29 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Affichage avancé</string>
-  <string name="defaults_button">Réinitialiser par défaut</string>
+  <string name="app_name">Paramètres du téléphone</string>
+  <string name="category_device_title">Paramètres du téléphone</string>
+  <string name="defaults_button">Réinitialiser</string>
   <string name="category_screen_title">Écran</string>
   <string name="screen_colors_title">Couleurs</string>
+  <string name="cabc_title_head">CABC</string>
+  <string name="cabc_summary_head">Activer le contrôle adaptatif du rétroéclairage</string>
   <string name="mdnie_scenario_title_head">Scénario</string>
   <string name="mdnie_scenario_summary_head">Définir le scénario mDNIe</string>
   <string name="mdnie_mode_title_head">Mode</string>
   <string name="mdnie_mode_summary_head">Définir le mode mDNIe</string>
   <string name="mdnie_negative_title_head">Mode négatif</string>
   <string name="mdnie_negative_summary_head">Activer/désactiver les couleurs inversées</string>
+  <string name="panel_gamma_title_head">Gamma écran</string>
+  <string name="panel_gamma_summary_head">Définir la valeur de gamma de l\'écran</string>
+  <string name="touchscreen_subcat_title">Tactile</string>
+  <string name="touchscreen_sensitivity_title_head">Sensibilité</string>
+  <string name="touchscreen_sensitivity_summary_head">Définir la sensibilité du toucher</string>
+  <string name="accelerometer_subcat_title">Accéléromètre</string>
+  <string name="use_accelerometer_calibration_title_head">Utiliser les données de calibrage</string>
+  <string name="use_accelerometer_calibration_summary_head">Utiliser les données de calibrage de l\'accéléromètre. Faire un calibrage après avoir coché cette option\u00A0!</string>
+  <string name="calibrate_accelerometer_title_head">Calibrer</string>
+  <string name="calibrate_accelerometer_summary_head">Poser le téléphone sur une surface plane puis appuyer ici pour le calibrer</string>
+  <string name="accelerometer_dialog_head">Calibrage terminé</string>
+  <string name="accelerometer_dialog_message">Le capteur a été correctement calibré.</string>
 </resources>

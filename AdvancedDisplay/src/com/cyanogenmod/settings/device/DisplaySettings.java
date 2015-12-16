@@ -40,10 +40,14 @@ public class DisplaySettings extends FragmentActivity {
     public static final String KEY_MDNIE_SCENARIO = "mdnie_scenario";
     public static final String KEY_MDNIE_MODE = "mdnie_mode";
     public static final String KEY_MDNIE_NEGATIVE = "mdnie_negative";
+    public static final String KEY_PANEL_GAMMA = "panel_gamma";
     public static final String KEY_LED_FADE = "led_fade";
     public static final String KEY_TOUCHKEY_LIGHT = "touchkey_light";
     public static final String KEY_TOUCHKEY_TIMEOUT = "touchkey_timeout";
     public static final String KEY_HSPA = "hspa";
+    public static final String KEY_USE_ACCELEROMETER_CALIBRATION = "use_accelerometer_calibration";
+    public static final String KEY_CALIBRATE_ACCELEROMETER = "calibrate_accelerometer";
+    public static final String KEY_TOUCHSCREEN_SENSITIVITY = "touchscreen_sensitivity";
     public static final String KEY_USE_DOCK_AUDIO = "dock_audio";
     public static final String KEY_CATEGORY_SPEN = "category_spen";
     public static final String KEY_SPEN_POWER_SAVING_MODE = "spen_power_saving";
@@ -64,7 +68,7 @@ public class DisplaySettings extends FragmentActivity {
         bar.setDisplayHomeAsUpEnabled(true);
 
         mTabsAdapter = new TabsAdapter(this, mViewPager);
-        mTabsAdapter.addTab(bar.newTab().setText(R.string.category_screen_title),
+        mTabsAdapter.addTab(bar.newTab().setText(R.string.category_device_title),
                 ScreenFragmentActivity.class, null);
 
         if (savedInstanceState != null) {

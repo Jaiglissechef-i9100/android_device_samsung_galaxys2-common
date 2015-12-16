@@ -62,4 +62,32 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+
+    <string-array name="panel_gamma_entries">
+        <item>2.2 (Default)</item>
+        <item>1.9</item>
+    </string-array>
+
+    <string-array name="panel_gamma_entries_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="touchscreen_sensitivity_entries">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50 (Default)</item>
+        <item>70</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="touchscreen_sensitivity_entries_values" translatable="false">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+    </string-array>
 </resources>

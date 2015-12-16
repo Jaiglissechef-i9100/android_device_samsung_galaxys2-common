@@ -36,6 +36,9 @@ public class ScreenFragmentActivity extends PreferenceFragment {
 
     private static final String PREF_ENABLED = "1";
     private static final String TAG = "DisplaySettings_Screen";
+
+    private static final String FILE_USE_ACCELEROMETER_CALIB = "/sys/class/sec/gsensorcal/calibration";
+
     private mDNIeScenario mmDNIeScenario;
     private mDNIeMode mmDNIeMode;
     private mDNIeNegative mmDNIeNegative;
@@ -63,8 +66,20 @@ public class ScreenFragmentActivity extends PreferenceFragment {
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
 
+        String boxValue;
         String key = preference.getKey();
         Log.w(TAG, "key: " + key);
+
+        if (key.compareTo(DisplaySettings.KEY_USE_ACCELEROMETER_CALIBRATION) == 0) {
+            boxValue = (((CheckBoxPreference)preference).isChecked() ? "1" : "0");
+            Utils.writeValue(FILE_USE_ACCELEROMETER_CALIB, boxValue);
+        } else if (key.compareTo(DisplaySettings.KEY_CALIBRATE_ACCELEROMETER) == 0) {
+            // when calibration data utilization is disablen and enabled back,
+            // calibration is done at the same time by driver
+            Utils.writeValue(FILE_USE_ACCELEROMETER_CALIB, "0");
+            Utils.writeValue(FILE_USE_ACCELEROMETER_CALIB, "1");
+            Utils.showDialog((Context)getActivity(), getString(R.string.accelerometer_dialog_head), getString(R.string.accelerometer_dialog_message));
+        }
 
         return true;
     }
@@ -75,5 +90,12 @@ public class ScreenFragmentActivity extends PreferenceFragment {
 
     public static void restore(Context context) {
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+        boolean accelerometerCalib = sharedPrefs.getBoolean(DisplaySettings.KEY_USE_ACCELEROMETER_CALIBRATION, true);
+
+        // When use accelerometer calibration value is set to 1, calibration is done at the same time, which
+        // means it is reset at each boot, providing wrong calibration most of the time at each reboot.
+        // So we only set it to "0" if user wants it, as it defaults to 1 at boot
+        if (!accelerometerCalib)
+            Utils.writeValue(FILE_USE_ACCELEROMETER_CALIB, "0");
     }
 }
