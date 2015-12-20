@@ -202,13 +202,9 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.exynos4
 -include vendor/samsung/galaxys2-common/BoardConfigVendor.mk
 
 
-#LZMA compression
-WITH_LZMA_OTA:= true
-
-
 #RR Optis
-TARGET_TC_ROM := 4.9
-TARGET_TC_KERNEL := 4.9
+TARGET_TC_ROM := 4.8-linaro
+TARGET_TC_KERNEL := 4.8-linaro
 RROPTI := true
 RR_O3 := true
 RR_STRICT := true
